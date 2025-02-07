@@ -58,7 +58,7 @@ body{
 
 .presentacion_enlaces{
     display: flex;
-    gap: 40px;
+    gap: 100px;
 }
 
 .presentacion_enlace_link {
