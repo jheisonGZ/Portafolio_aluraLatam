@@ -10,13 +10,12 @@
 
 
 body{
-  background-color: black;  
-  color: #f6f6f6;
   height: 100vh;
   box-sizing: border-box;
+  background-color: #000000;
+  color: #F6F6F6;
 
 }
-
 
 
 .titulo-destaque
@@ -26,6 +25,7 @@ body{
 
 .presentacion
 {
+
   display: flex;
   align-items: center;
   margin: 10% 15%;
@@ -37,6 +37,7 @@ body{
   width: 615px;
   display: flex;
   flex-direction: column;
+  gap: 40px;	
   
  
 }
@@ -45,7 +46,6 @@ body{
 {
   font-size: 36px;
   font-family: "Krona One", serif;
-    margin-bottom: 40px; 
 }
 
 
@@ -58,20 +58,29 @@ body{
 
 .presentacion_enlaces{
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .presentacion_enlace_link {
 
-width: 280px;
-background-color: #22D4FD;
-text-align: center;
-padding: 21.5px 0;
-border-radius: 16px;
-font-family: "Montserrat", serif;
-font-size: 24px;
-font-weight: 600;
-text-decoration: none;
-color: #000000;
+        background-color: #22D4FD;
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: -20px;
+       
 
 }
+
+.imagen-proyecto {
+    width: 400px;
+   margin: 50px;
+  }
+  
+  
