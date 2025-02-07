@@ -105,4 +105,28 @@ body{
     box-shadow: 0px 4px 15px rgba(34, 212, 253, 0.4);
 }
 
-  
+
+.presentacion_enlace_link:active {
+    transform: scale(0.95); /* Reduce ligeramente el tamaño */
+    background-color: #1482b0;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 10px rgba(34, 212, 253, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 20px rgba(34, 212, 253, 0.7);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 0px 10px rgba(34, 212, 253, 0.5);
+    }
+}
+
+.presentacion_enlace_link.pulsating {
+    animation: pulsate 1s infinite;
+}
+
